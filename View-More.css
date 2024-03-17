@@ -41,7 +41,7 @@
     height: 209px;
   }
 } .u-section-2 {
-  background-image: linear-gradient(#1a1a1a, #999999);
+  background-image: linear-gradient(#292e33, #425465);
 }
 
 .u-section-2 .u-sheet-1 {
@@ -672,7 +672,7 @@
     --radius: 38px;
   }
 } .u-section-3 {
-  background-image: linear-gradient(#999999, #f2f2f2);
+  background-image: linear-gradient(#425465, #4c7397);
 }
 
 .u-section-3 .u-sheet-1 {
@@ -804,7 +804,7 @@
     min-height: 351px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(#f2f2f2, white);
+  background-image: linear-gradient(#4c7397, #478ac9);
 }
 
 .u-section-4 .u-sheet-1 {
