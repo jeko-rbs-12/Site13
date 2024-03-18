@@ -42608,6 +42608,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 64px;
+  }
+
+  .u-header .u-image-1 {
+    margin-right: 0;
+  }
+
   .u-header .u-nav-2 {
     margin-right: auto;
     margin-left: auto;

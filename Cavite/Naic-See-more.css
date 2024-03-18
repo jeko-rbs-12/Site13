@@ -16,12 +16,13 @@
 .u-section-1 .u-shape-1 {
   height: 687px;
   width: 1140px;
+  --radius: 42px;
   margin: -243px auto 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1140px;
-  margin: -759px auto 60px;
+  margin: -754px auto 60px;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -114,19 +115,21 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 817px;
+    min-height: 995px;
   }
 
   .u-section-1 .u-shape-1 {
+    height: 604px;
     width: 940px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
+    margin-top: -633px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 159px;
+    min-height: 165px;
   }
 
   .u-section-1 .u-text-1 {
@@ -135,7 +138,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 326px;
+    min-height: 369px;
   }
 
   .u-section-1 .u-image-2 {
@@ -145,7 +148,7 @@
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 326px;
+    min-height: 369px;
   }
 
   .u-section-1 .u-image-3 {
@@ -155,7 +158,7 @@
   }
 
   .u-section-1 .u-layout-cell-4 {
-    min-height: 326px;
+    min-height: 369px;
   }
 
   .u-section-1 .u-image-4 {
@@ -169,33 +172,44 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 470px;
+    min-height: 880px;
   }
 
   .u-section-1 .u-shape-1 {
+    height: 594px;
     width: 720px;
+    --radius: 43px;
+    margin-top: -329px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 720px;
+    margin-top: -624px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 170px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 13px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 362px;
   }
 
   .u-section-1 .u-image-2 {
@@ -205,7 +219,7 @@
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 100px;
+    min-height: 362px;
   }
 
   .u-section-1 .u-image-3 {
@@ -215,7 +229,7 @@
   }
 
   .u-section-1 .u-layout-cell-4 {
-    min-height: 100px;
+    min-height: 362px;
   }
 
   .u-section-1 .u-image-4 {
@@ -225,28 +239,41 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 570px;
+    min-height: 2037px;
   }
 
   .u-section-1 .u-shape-1 {
+    height: 1736px;
     width: 540px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: 540px;
+    width: 504px;
+    margin-top: -1772px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 198px;
   }
 
   .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-1 .u-text-1 {
-    width: 520px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .u-section-1 .u-text-2 {
-    width: 520px;
+    width: auto;
+    margin-left: -38px;
+    margin-right: -38px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 513px;
   }
 
   .u-section-1 .u-image-2 {
@@ -255,10 +282,18 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 513px;
+  }
+
   .u-section-1 .u-image-3 {
     height: 335px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-layout-cell-4 {
+    min-height: 484px;
   }
 
   .u-section-1 .u-image-4 {
@@ -268,36 +303,35 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 1714px;
+    min-height: 1830px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 60px;
   }
 
   .u-section-1 .u-shape-1 {
-    height: 1576px;
+    height: 1483px;
     width: 340px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
+    margin-top: -1568px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 246px;
   }
 
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 2.125rem;
-    width: auto;
     margin-left: -20px;
     margin-right: -20px;
   }
 
   .u-section-1 .u-text-2 {
-    width: auto;
+    margin-top: 4px;
     margin-left: -20px;
     margin-right: -20px;
   }
@@ -307,7 +341,7 @@
   }
 
   .u-section-1 .u-image-2 {
-    height: 211px;
+    height: 226px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -317,7 +351,7 @@
   }
 
   .u-section-1 .u-image-3 {
-    height: 211px;
+    height: 226px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -327,7 +361,7 @@
   }
 
   .u-section-1 .u-image-4 {
-    height: 211px;
+    height: 226px;
   }
 } .u-section-2 {
   background-image: url("../images/japandi-living-room-interior-design1.jpg");
@@ -340,12 +374,14 @@
 
 .u-section-2 .u-shape-1 {
   height: 619px;
-  margin: 0;
+  margin-top: 19px;
+  margin-bottom: 0;
+  --radius: 50px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin-top: -651px;
-  margin-bottom: 45px;
+  margin-top: -624px;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-layout-cell-1 {
@@ -431,16 +467,15 @@
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 553px;
+    min-height: 688px;
   }
 
   .u-section-2 .u-shape-1 {
-    margin-right: initial;
-    margin-left: initial;
+    height: 545px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -747px;
+    margin-top: -550px;
     margin-bottom: 60px;
   }
 
@@ -490,16 +525,19 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 267px;
+    min-height: 707px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    height: 528px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -779px;
-    margin-bottom: 40px;
+    margin-top: -534px;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 119px;
   }
 
   .u-section-2 .u-text-1 {
@@ -508,7 +546,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 366px;
   }
 
   .u-section-2 .u-image-1 {
@@ -518,7 +556,7 @@
   }
 
   .u-section-2 .u-layout-cell-3 {
-    min-height: 100px;
+    min-height: 366px;
   }
 
   .u-section-2 .u-image-2 {
@@ -528,7 +566,7 @@
   }
 
   .u-section-2 .u-layout-cell-4 {
-    min-height: 100px;
+    min-height: 366px;
   }
 
   .u-section-2 .u-image-3 {
@@ -540,20 +578,34 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 367px;
+    min-height: 2034px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    height: 1632px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -1941px;
+    margin-top: -1650px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 129px;
   }
 
   .u-section-2 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-2 .u-text-1 {
-    width: 520px;
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
   .u-section-2 .u-image-1 {
@@ -562,10 +614,18 @@
     margin-left: initial;
   }
 
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 100px;
+  }
+
   .u-section-2 .u-image-2 {
     height: 335px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-2 .u-layout-cell-4 {
+    min-height: 100px;
   }
 
   .u-section-2 .u-image-3 {
@@ -577,35 +637,30 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1348px;
+    min-height: 1390px;
   }
 
   .u-section-2 .u-shape-1 {
-    height: 1427px;
-    margin-top: 56px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 1331px;
+    --radius: 48px;
+    margin-top: 20px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -1483px;
-    margin-bottom: -13px;
+    margin-top: -1361px;
+    margin-bottom: 40px;
   }
 
   .u-section-2 .u-layout-cell-1 {
     min-height: 127px;
   }
 
-  .u-section-2 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .u-section-2 .u-text-1 {
     font-size: 2.125rem;
-    width: auto;
-    margin-left: -20px;
-    margin-right: -20px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 397px;
   }
 
   .u-section-2 .u-image-1 {
@@ -614,10 +669,22 @@
     margin-left: initial;
   }
 
+  .u-section-2 .u-text-2 {
+    margin-bottom: 0;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 368px;
+  }
+
   .u-section-2 .u-image-2 {
     height: 211px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-2 .u-layout-cell-4 {
+    min-height: 398px;
   }
 
   .u-section-2 .u-image-3 {
