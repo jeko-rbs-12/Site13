@@ -1944,4 +1944,12 @@
   .u-section-8 .u-text-2 {
     width: 340px;
   }
+  #preloader {
+    background: #ffffff url(Borcelle.gif)no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
 }
